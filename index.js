@@ -29,7 +29,7 @@ exports.decorateConfig = (config) =>
       lightRed: red,
       lightGreen: green,
       lightYellow: yellow,
-      lightBlue: blue,
+      secondary_2: blue,
       lightMagenta: magenta,
       lightCyan: cyan,
       lightWhite: foregroundColor,
