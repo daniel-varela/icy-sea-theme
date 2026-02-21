@@ -9,11 +9,11 @@ const base = {
     secondary_3: '#91B4D5',
     secondary_4: '#7390AA',
     
-    tertiary_1: '#767c9d',
-    tertiary_2: '#506477',
-    tertiary_3: '#303340',
+    tertiary_1: '#868cad',
+    tertiary_2: '#607487',
+    tertiary_3: '#404350',
 
-    bg: '#151820',
+    bg: '#12151d',
     brightYellow: '#fffac2',
     hotRed: '#d0679d',
     pink: '#f087bd',
@@ -510,19 +510,19 @@ function schema({ colors, styles }) {
       {
         "scope": ["entity.name.type.cs", "entity.name.type.namespace.cs"],
         "settings": {
-          "foreground": "${colors.primary_2}"
+          "foreground": "${colors.primary_1}"
         }
       },
       {
         "scope": ["entity.name", "variable.other"],
         "settings": {
-          "foreground": "${colors.offWhite}da"
+          "foreground": "${colors.secondary_3}"
         }
       },
       {
         "scope": ["entity.name.function", "entity.name.function.js", "variable.other.object.property", "variable.other.property"],
         "settings": {
-          "foreground": "${colors.secondary_1}"
+          "foreground": "${colors.secondary_2}"
         }
       },
       {
@@ -541,13 +541,13 @@ function schema({ colors, styles }) {
       {
         "scope": ["storage.modifier", "keyword", "keyword.other", "storage.type", "keyword.control"],
         "settings": {
-          "foreground": "${colors.secondary_4}"
+          "foreground": "${colors.tertiary_2}"
         }
       },
       {
         "scope": ["string"],
         "settings": {
-          "foreground": "${colors.secondary_2}"
+          "foreground": "${colors.secondary_1}"
         }
       },
       {

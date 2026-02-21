@@ -455,19 +455,19 @@
       {
         "scope": ["entity.name.type.cs", "entity.name.type.namespace.cs"],
         "settings": {
-          "foreground": "#61b8a5"
+          "foreground": "#5DE4c7"
         }
       },
       {
         "scope": ["entity.name", "variable.other"],
         "settings": {
-          "foreground": "#e4f0fbda"
+          "foreground": "#91B4D5"
         }
       },
       {
         "scope": ["entity.name.function", "entity.name.function.js", "variable.other.object.property", "variable.other.property"],
         "settings": {
-          "foreground": "#89ddff"
+          "foreground": "#ADD7FF"
         }
       },
       {
@@ -486,13 +486,13 @@
       {
         "scope": ["storage.modifier", "keyword", "keyword.other", "storage.type", "keyword.control"],
         "settings": {
-          "foreground": "#7390AA"
+          "foreground": "#607487"
         }
       },
       {
         "scope": ["string"],
         "settings": {
-          "foreground": "#ADD7FF"
+          "foreground": "#89ddff"
         }
       },
       {
