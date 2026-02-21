@@ -1,7 +1,7 @@
 const base = {
   colors: {
     primary_1: '#5DE4c7',
-    primary_2: '#5fb3a1',
+    primary_2: '#61b8a5',
     primary_3: '#42675A',
 
     secondary_1: '#89ddff',
@@ -516,14 +516,13 @@ function schema({ colors, styles }) {
       {
         "scope": ["entity.name", "variable.other"],
         "settings": {
-          "foreground": "${colors.secondary_2}"
+          "foreground": "${colors.offWhite}da"
         }
       },
       {
         "scope": ["entity.name.function", "entity.name.function.js", "variable.other.object.property", "variable.other.property"],
         "settings": {
-          "foreground": "${colors.secondary_1}",
-          "fontStyle": "bold"
+          "foreground": "${colors.secondary_1}"
         }
       },
       {
@@ -540,7 +539,7 @@ function schema({ colors, styles }) {
         }
       },
       {
-        "scope": ["storage.modifier", "keyword", "keyword.other", "storage.type", "keyword.control.flow"],
+        "scope": ["storage.modifier", "keyword", "keyword.other", "storage.type", "keyword.control"],
         "settings": {
           "foreground": "${colors.secondary_4}"
         }
@@ -549,6 +548,12 @@ function schema({ colors, styles }) {
         "scope": ["string"],
         "settings": {
           "foreground": "${colors.secondary_2}"
+        }
+      },
+      {
+        "scope": ["keyword.control.flow"],
+        "settings": {
+          "foreground": "${colors.pink}"
         }
       }
     ]
