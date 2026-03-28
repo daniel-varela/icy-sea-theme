@@ -1,25 +1,25 @@
 const base = {
   colors: {
-    primary_1: '#5DE4c7',
-    primary_2: '#61b8a5',
-    primary_3: '#42675A',
+    primary_1: '#43b895',
+    primary_2: '#4da390',
+    primary_3: '#396958',
 
-    secondary_1: '#89ddff',
-    secondary_2: '#ADD7FF',
-    secondary_3: '#91B4D5',
+    secondary_1: '#62a6e6',
+    secondary_2: '#94b5d4',
+    secondary_3: '#48a1f5',
     secondary_4: '#7390AA',
     
-    tertiary_1: '#868cad',
+    tertiary_1: '#7f86b3',
     tertiary_2: '#607487',
     tertiary_3: '#404350',
 
-    bg: '#12151d',
+    bg: '#0e1016',
     brightYellow: '#fffac2',
     hotRed: '#d0679d',
     pink: '#f087bd',
     gray: '#a6accd',
 
-    offWhite: '#e4f0fb',
+    offWhite: '#cdd8e2',
     selection: '#717cb425',
 
     white: '#ffffff',
@@ -516,13 +516,13 @@ function schema({ colors, styles }) {
       {
         "scope": ["entity.name", "variable.other"],
         "settings": {
-          "foreground": "${colors.secondary_3}"
+          "foreground": "${colors.secondary_2}"
         }
       },
       {
         "scope": ["entity.name.function", "entity.name.function.js", "variable.other.object.property", "variable.other.property"],
         "settings": {
-          "foreground": "${colors.secondary_2}"
+          "foreground": "${colors.secondary_1}"
         }
       },
       {
@@ -541,13 +541,13 @@ function schema({ colors, styles }) {
       {
         "scope": ["storage.modifier", "keyword", "keyword.other", "storage.type", "keyword.control"],
         "settings": {
-          "foreground": "${colors.tertiary_2}"
+          "foreground": "${colors.tertiary_1}"
         }
       },
       {
         "scope": ["string"],
         "settings": {
-          "foreground": "${colors.secondary_1}"
+          "foreground": "${colors.secondary_3}"
         }
       },
       {
