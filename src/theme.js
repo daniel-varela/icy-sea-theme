@@ -1,17 +1,17 @@
 const base = {
   colors: {
-    primary_1: '#43b895',
-    primary_2: '#4da390',
-    primary_3: '#396958',
+    primary_1: '#38cea1',
+    primary_2: '#418677',
+    primary_3: '#426659',
 
-    secondary_1: '#62a6e6',
-    secondary_2: '#94b5d4',
-    secondary_3: '#48a1f5',
+    secondary_1: '#75a6d4',
+    secondary_2: '#b4c4e6',
+    secondary_3: '#72b5f3',
     secondary_4: '#7390AA',
     
-    tertiary_1: '#7f86b3',
-    tertiary_2: '#607487',
-    tertiary_3: '#404350',
+    tertiary_1: '#646c9e',
+    tertiary_2: '#5d6077',
+    tertiary_3: '#38393f',
 
     bg: '#0e1016',
     brightYellow: '#fffac2',
@@ -528,7 +528,7 @@ function schema({ colors, styles }) {
       {
         "scope": ["keyword.type"],
         "settings": {
-          "foreground": "${colors.primary_2}",
+          "foreground": "${colors.primary_1}",
           "fontStyle": "bold"
         }
       },
@@ -553,7 +553,7 @@ function schema({ colors, styles }) {
       {
         "scope": ["keyword.control.flow"],
         "settings": {
-          "foreground": "${colors.pink}"
+          "foreground": "${colors.tertiary_1}"
         }
       }
     ]
