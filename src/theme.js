@@ -13,7 +13,8 @@ const base = {
     tertiary_2: '#5d6077',
     tertiary_3: '#38393f',
 
-    bg: '#0e1016',
+    bg: '#12151d',
+    editorBg: '#0e1016',
     brightYellow: '#fffac2',
     hotRed: '#d0679d',
     pink: '#f087bd',
@@ -31,25 +32,19 @@ const base = {
   },
 }
 
-const noitalics = { ...base, styles: { ...base.styles, fontStyle: '' } }
-
 const storm = {
   ...base,
   colors: {
     ...base.colors,
-    tertiary_1: '#868cad',
-    tertiary_2: '#607487',
-    tertiary_3: '#404350',
-    bg: '#252b37',
-    selection: '#818cc425',
-    black: '#101010',
+    primary_1: '#27e8a7',
+    primary_2: '#32ae85',
+    primary_3: '#42675a',
+    secondary_1: '#add7ff',
+    secondary_2: '#91b4d5',
+    secondary_3: '#7390aa',
+    secondary_4: '#506477',
+    tertiary_1: '#506477'
   },
-}
-
-const stormNoitalics = {
-  ...base,
-  colors: { ...storm.colors },
-  styles: { ...base.styles, fontStyle: '' },
 }
 
 function schema({ colors, styles }) {
@@ -580,7 +575,5 @@ function svg({ colors }) {
 
 module.exports.schema = schema
 module.exports.base = base
-module.exports.noitalics = noitalics
 module.exports.storm = storm
-module.exports.stormNoitalics = stormNoitalics
 module.exports.svg = svg
